@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
-import { /* HashRouter, */ BrowserRouter } from 'react-router-dom' // HashRouter для gh-pages
+import { HashRouter/* , BrowserRouter */ } from 'react-router-dom' // HashRouter для gh-pages
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
 
       <App />
 
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
