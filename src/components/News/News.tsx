@@ -1,6 +1,5 @@
 import React from 'react';
 import './News.css';
-import { Link } from 'react-router-dom';
 import MailTo from '../MailTo/MailTo';
 
 const News = () => {
@@ -55,9 +54,9 @@ const News = () => {
 				<p className='news__paragraph'>
 					Задача организации, в особенности же перспективное планирование, а
 					также свежий взгляд на привычные вещи - безусловно открывает{' '}
-					<Link to={{ pathname: 'https://www.google.com/' }} target='_blank'>
+					<a href='https://www.google.com/' target='_blank' rel="noreferrer">
 						новые горизонты
-					</Link>{' '}
+					</a>
 					для анализа существующих паттернов поведения. Также как перспективное
 					планирование однозначно определяет каждого участника как способного
 					принимать собственные решения касаемо благоприятных перспектив.
