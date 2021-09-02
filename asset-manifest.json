@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/xlab-test-task/static/css/main.24b3c1a6.chunk.css",
+    "main.css": "/xlab-test-task/static/css/main.1c5b3679.chunk.css",
     "main.js": "/xlab-test-task/static/js/main.92cc07d1.chunk.js",
     "main.js.map": "/xlab-test-task/static/js/main.92cc07d1.chunk.js.map",
     "runtime-main.js": "/xlab-test-task/static/js/runtime-main.49b5ac14.js",
@@ -10,8 +10,9 @@
     "static/js/3.e589ed5c.chunk.js": "/xlab-test-task/static/js/3.e589ed5c.chunk.js",
     "static/js/3.e589ed5c.chunk.js.map": "/xlab-test-task/static/js/3.e589ed5c.chunk.js.map",
     "index.html": "/xlab-test-task/index.html",
-    "static/css/main.24b3c1a6.chunk.css.map": "/xlab-test-task/static/css/main.24b3c1a6.chunk.css.map",
+    "static/css/main.1c5b3679.chunk.css.map": "/xlab-test-task/static/css/main.1c5b3679.chunk.css.map",
     "static/js/2.88586874.chunk.js.LICENSE.txt": "/xlab-test-task/static/js/2.88586874.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/xlab-test-task/static/media/Montserrat-SemiBold.da466807.woff",
     "static/media/calendare-icon.b438cff0.svg": "/xlab-test-task/static/media/calendare-icon.b438cff0.svg",
     "static/media/exit-icon.e753b457.svg": "/xlab-test-task/static/media/exit-icon.e753b457.svg",
     "static/media/form-search-btn.3f7818f3.svg": "/xlab-test-task/static/media/form-search-btn.3f7818f3.svg",
@@ -30,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.49b5ac14.js",
     "static/js/2.88586874.chunk.js",
-    "static/css/main.24b3c1a6.chunk.css",
+    "static/css/main.1c5b3679.chunk.css",
     "static/js/main.92cc07d1.chunk.js"
   ]
 }
