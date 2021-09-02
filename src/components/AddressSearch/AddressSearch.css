@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 450px) {
 	.address__subtitle {
-		font-size: 18px;
-		line-height: 22px;
+		font-size: 15px;
+		line-height: 18px;
 	}
 }
