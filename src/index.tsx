@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { /* HashRouter */ BrowserRouter } from 'react-router-dom' // HashRouter для gh-pages
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={'xlab-test-task/'} >
 
       <App />
 
