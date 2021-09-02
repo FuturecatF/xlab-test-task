@@ -23,7 +23,7 @@ const SettingsNavItem = ({ title, logo }: any) => {
 				<img className='settings__img' src={logo} alt={title}></img>
 				<p className='settings__title'>{title}</p>
 				<img
-					className='settings__img-button'
+					className={`settings__img-button ${isDropActive ? 'settings__img-button_active' : ''}`}
 					src={rectangleBg}
 					alt='треугольник'
 				></img>

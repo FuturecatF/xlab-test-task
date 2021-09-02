@@ -30,6 +30,10 @@
 	margin: 0 20px 6px auto;
 }
 
+.settings__img-button_active {
+	transform: rotate(180deg);
+}
+
 .settings__list {
 	margin: 0;
 	padding: 0 0 0 54px;
