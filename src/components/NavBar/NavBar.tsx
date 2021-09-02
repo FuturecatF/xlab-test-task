@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {FC} from 'react';
 import './NavBar.css';
 /* components */
 import NavLinkItem from '../NavLinkItem/NavLinkItem';
@@ -13,9 +13,12 @@ import calendareIcon from '../../images/calendare-icon.svg';
 import mapsIcon from '../../images/maps-icon.svg';
 import widgetsIcon from '../../images/widget-icon.svg';
 import exitIcon from '../../images/exit-icon.svg';
-const NavBar = () => {
+interface NavBarProps {
+	isMobileMenuOpen: boolean;
+}
+const NavBar: FC<NavBarProps> = ({isMobileMenuOpen}) => {
 	return (
-		<aside className='aside-navbar'>
+		<aside className={`aside-navbar ${isMobileMenuOpen ? 'aside-navbar_active' : ''}`}>
 			<nav className='navbar'>
 				<h3 className='navbar__title'>Меню</h3>
 				<ul className='navbar__list'>

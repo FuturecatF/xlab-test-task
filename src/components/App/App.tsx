@@ -9,6 +9,7 @@ import AddressSearch from '../AddressSearch/AddressSearch';
 import * as dapi from '../../utils/daApi';
 function App() {
 	const [searchData, SetSearchData] = useState<any[]>([]);
+	const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
 
 	async function handleSubmitSearch(query: string): Promise<any> {
 		try {
@@ -34,10 +35,16 @@ function App() {
 		}
 	}
 
+	function handleOpenMobileMenu() {
+if (!isMobileMenuOpen) {
+	setIsMobileMenuOpen(true);
+} else setIsMobileMenuOpen(false);
+	}
+
 	return (
 		<div className='page'>
 			<div className='page__container'>
-				<Header />
+				<Header onOpenMobileMenu={handleOpenMobileMenu} isMobileMenuOpen={isMobileMenuOpen}/>
 				<Switch>
 					<Route exact path='/'>
 						<Main />
