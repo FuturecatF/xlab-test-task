@@ -1,0 +1,48 @@
+.header {
+	height: 80px;
+	background-color: #4f27bf;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 16px 32px 16px 32px;
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+}
+
+.header__img-logo {
+	width: 48px;
+	height: 48px;
+	margin-right: 24px;
+}
+
+.header__title {
+	display: block;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	color: #ffffff;
+	margin: 0;
+}
+
+.header__img-profile {
+	width: 48px;
+	height: 48px;
+	margin-right: 16px;
+}
+
+@media screen and (max-width: 700px) {
+	.header__title {
+		display: none;
+	}
+	.header__img-profile {
+		margin-right: 0;
+	}
+}

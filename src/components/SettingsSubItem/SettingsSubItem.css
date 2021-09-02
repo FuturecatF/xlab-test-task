@@ -1,0 +1,36 @@
+.settings__item {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	padding-top: 40px;
+}
+
+.settings__item-link {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+.settings__item-img {
+	width: 32px;
+	height: 32px;
+	margin-right: 20px;
+}
+
+.settings__item-title {
+	margin-left: 20px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #1c1c1e;
+	margin: 0;
+}
+
+.settings__item_active-element {
+	margin-left: auto;
+	background-color: #4f27bf;
+	border-radius: 5px 0 0 5px;
+	min-width: 3px;
+	height: auto;
+}

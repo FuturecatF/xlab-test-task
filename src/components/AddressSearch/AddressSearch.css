@@ -1,0 +1,41 @@
+.address {
+	margin-left: 300px;
+	padding: 32px;
+}
+
+.address__title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 32px;
+	color: #1c1c1e;
+	margin: 0;
+}
+
+.address__subtitle {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #1c1c1e;
+	margin: 16px 0 24px 0;
+}
+
+@media screen and (max-width: 980px) {
+	.address {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.address {
+		padding: 16px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.address__subtitle {
+		font-size: 18px;
+		line-height: 22px;
+	}
+}

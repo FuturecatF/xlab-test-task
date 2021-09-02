@@ -1,0 +1,23 @@
+.result {
+	box-shadow: 0px 2px 8px rgba(2, 0, 97, 0.25);
+	border-radius: 10px;
+	margin-top: 32px;
+	padding: 24px;
+}
+
+.result__title {
+	margin: 0;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #d7d7d7;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 32px;
+	color: #000000;
+}
+
+.result__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}

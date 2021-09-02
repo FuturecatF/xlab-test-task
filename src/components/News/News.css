@@ -1,0 +1,41 @@
+.news {
+	padding: 32px;
+}
+
+.news__title {
+	margin: 0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 32px;
+	color: #1c1c1e;
+}
+
+.news__subtitle {
+	margin: 16px 0 0;
+}
+
+.news__container {
+	margin-top: 24px;
+}
+
+.news__paragraph {
+	margin: 0 0 24px;
+	padding: 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.news__paragraph:last-of-type {
+	margin: 0;
+}
+
+@media screen and (max-width: 750px) {
+	.news {
+		padding: 16px;
+	}
+	
+}

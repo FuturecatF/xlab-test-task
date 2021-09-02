@@ -1,0 +1,42 @@
+.navlink {
+	display: flex;
+	width: auto;
+	padding: 0;
+	margin-bottom: 40px;
+}
+
+.navlink:last-child {
+	margin-bottom: 0;
+}
+
+.navlink__link {
+	text-decoration: none;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.navlink__img {
+	width: 32px;
+	height: 32px;
+	margin-right: 20px;
+}
+
+.navlink__title {
+	margin-left: 20px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #1c1c1e;
+	width: 100%;
+	margin: 0;
+}
+
+.navlink__active-element {
+	margin-left: auto;
+	background-color: #4f27bf;
+	border-radius: 5px 0 0 5px;
+	min-width: 3px;
+	height: auto;
+}

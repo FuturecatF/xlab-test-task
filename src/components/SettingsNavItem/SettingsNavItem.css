@@ -1,0 +1,45 @@
+.settings {
+	width: auto;
+	cursor: pointer;	
+}
+
+.settings__content {
+	display: flex;
+	align-items: flex-end;
+}
+
+.settings__img {
+	width: 32px;
+	height: 32px;
+}
+
+.settings__title {
+	margin: 0;
+	text-decoration: none;
+	margin-left: 20px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #1c1c1e;
+}
+
+.settings__img-button{
+	width: 16px;
+	height: 16px;
+	margin: 0 20px 6px auto;
+}
+
+.settings__list {
+	margin: 0;
+	padding: 0 0 0 54px;
+	display: none;
+	box-sizing: border-box;
+	list-style: none;
+	
+}
+
+.settings__list_active {
+	display: flex;
+	flex-direction: column;
+}

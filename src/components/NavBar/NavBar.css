@@ -1,0 +1,45 @@
+.aside-navbar {
+    position: fixed;
+	top: 80px;
+	left: 0;
+	bottom: 0;
+	width: 300px;
+    height: 100%;
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0px 0px 5px rgba(2, 0, 96, 0.25);
+	overflow-y: scroll;
+	scrollbar-width: none;	
+}
+
+.aside-navbar::-webkit-scrollbar { 
+	width: 0;
+	height: 0; 
+} 
+
+.navbar__title {
+    margin: 24px 0 36px 32px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	color: #1c1c1e;
+}
+
+.navbar__list {
+	width: 100%;
+	box-sizing: border-box;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 32px;
+}
+
+/* .navbar__list-item {
+padding-bottom: 40px;
+} */
+
+@media screen and (max-width: 980px) {
+    .aside-navbar {
+        display: none;
+    }
+    
+}
